@@ -1,4 +1,4 @@
-# SRE Platform Lab
+# Cloud Native Reliability Platform
 
 Cloud-native reliability platform built to demonstrate modern Site Reliability Engineering practices across Infrastructure as Code, Kubernetes, Observability, Automation, Incident Management, and Distributed Systems.
 
