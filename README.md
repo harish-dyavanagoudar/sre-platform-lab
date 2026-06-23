@@ -19,6 +19,7 @@ The goal of this project is to build and operate a production-style platform tha
 
 ## Planned Architecture
 
+```text
 AWS Infrastructure
 │
 ├── VPC
@@ -34,15 +35,17 @@ Kubernetes Cluster
 ├── Prometheus
 ├── Grafana
 └── Alertmanager
-
+│
 ▼
 
 Observability Platform
 
-Metrics
-Logs
-Alerts
-Dashboards
+├── Metrics
+├── Logs
+├── Alerts
+└── Dashboards
+```
+
 
 ## Project Roadmap
 
@@ -93,5 +96,4 @@ Terraform • AWS • Kubernetes • Python • OpenTelemetry • Prometheus •
 ## Author
 
 Harish Dyavanagoudar
-
 Site Reliability Engineer | Infrastructure, Observability & Automation
